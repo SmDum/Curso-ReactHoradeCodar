@@ -4,6 +4,8 @@ import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
 import List from './components/List'; 
 import React from 'react';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
   
@@ -23,6 +25,11 @@ function App() {
         foto="https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_960_720.png" 
       />
       <List />
+
+      <Evento numero = "1"/>
+      <Evento numero = "2"/>
+
+      <Form />
     </div>
   ); 
 }
