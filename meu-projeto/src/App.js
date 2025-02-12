@@ -26,8 +26,7 @@ function App() {
       />
       <List />
 
-      <Evento numero = "1"/>
-      <Evento numero = "2"/>
+      <Evento />
 
       <Form />
     </div>
